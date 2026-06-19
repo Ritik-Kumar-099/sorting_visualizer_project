@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" media="screen" href="style.css">
+    <script src="index.js" type="module" defer></script>
+</head>
+<body>
+    <div class="heading">
+        <h1>SORTING VISUALIZER</h1>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <select name="" id="selectAlgorithms" class="select-algorithm">
+                <option value="bubbleSort" selected>Bubble Sort</option>
+                <option value="selectionSort">Selection Sort</option>
+                <option value="insertionSort">Insertion Sort</option>
+                <option value="quickSort">Quick Sort</option>
+                <option value="mergeSort">Merge Sort</option>
+                <option value="countSort">Count Sort</option>
+                <option value="heapSort">Heap Sort</option>
+            </select>
+            <div class="generate-new">
+                <p>Generate New Array</p>
+                <input type="number" name="sizeArray" id="numbersBars" max="20" min="1" value="10" >
+                <button  id="generateBtn">New</button>
+            </div>
+            <div class="buttons">
+                <button id="solveBtn">Solve</button>
+            </div>
+        </div>
+        <div class="stage" id="stage"></div>
+    </div>
+    <div class="footer">
+        <div class="link">
+            to run this visualizer in your device go to &nbsp; <a style="color:#fff; text-decoration: none;" target="_blank" href="https://sv-37-99.netlify.app">sv-37-99.netlify.app</a>
+        </div>
+        <div class="info">
+            Developed by Gadar kumar (23001003037) & Ritik kumar (23001003099)
+            
+        </div>
+    </div>
+</body>
+</html>
